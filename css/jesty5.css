@@ -1,0 +1,37 @@
+body {
+    padding: 20px;
+}
+
+.main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightgray;
+    width: 85vw;
+    height: 600px;
+    border: 1px solid blue;
+    border-radius: 40px;
+}
+
+.flexEnd {
+    justify-content: flex-end;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.wrapper {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.square {
+    height: 150px;
+    background-color: tomato;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin: 20px;
+    width: 320px;
+    margin-left: 3%;
+    margin-right: 3%;
+}

@@ -1,0 +1,52 @@
+header {
+    margin-top: 20px;
+    background-color: greenyellow;
+    border-bottom: 2px solid silver;
+    padding: 10px;
+    font-family: Comic Sans MS;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.article,
+.aside {
+    height: 150px;
+    background-color: tomato;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.hiddn {
+    opacity: 0;
+}
+
+.article {
+    flex: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.aside {
+    flex: 1;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: greenyellow;
+    border-bottom: 2px solid silver;
+    padding: 10px;
+}
+
+body {
+    position: relative;
+    width: 90vw;
+    height: 90vw;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
