@@ -1,0 +1,32 @@
+body {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 1px solid black;
+    min-width: 926px;
+}
+
+.top {
+    padding-left: 26px;
+    padding-right: 26px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+    justify-content: space-around;
+}
+
+.in-target {
+    width: 400px;
+    height: 420px;
+    border: 1px solid tomato;
+}
+
+.info {
+    width: 400px;
+    height: 420px;
+    border: 1px solid tomato;
+}
