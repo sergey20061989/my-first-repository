@@ -1,0 +1,64 @@
+.footer {
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.axis {
+    margin-bottom: 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.title-footer {
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 33px;
+    color: #2c303d;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 16px;
+}
+
+.loh {
+    position: relative;
+    text-align: center;
+}
+
+.title-loh {
+    font-weight: 700;
+    font-size: 14px;
+    color: #282828;
+    text-transform: uppercase;
+}
+
+.price {
+    position: absolute;
+    bottom: 36px;
+    right: 0px;
+    background-color: #8ae6cf;
+    height: 22px;
+    display: inline-flex;
+    align-items: center;
+    opacity: 0.7;
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    color: #2c303d;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+.trought {
+    text-decoration: line-through;
+    opacity: 1;
+}
+
+.discont {
+    color: red;
+    opacity: 1;
+    margin-left: 10px;
+}
